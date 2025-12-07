@@ -1,0 +1,96 @@
+   body{
+        line-height: 1.5;
+        font-family: Arial, sans-serif;
+        margin: 30px;
+        font-size: 20px;        
+    }
+    
+    input{
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    input:focus {           
+        outline: none;
+    }
+
+    .day{
+        font-size: 17px;
+        margin: auto;
+        align-content: center;
+        text-align: center;
+        border: 1px solid #BCBBBC;
+        border-radius: 15px;
+        width: 90px;
+        height: 30px;
+        position: relative; 
+        background-color: white;
+    }
+
+    .arrow {
+        display: inline-block;
+        transform: scaley(0.5); 
+    }
+
+    .day-line {
+        position: relative; 
+    }
+
+    .day-line::before {
+        content: "";            
+        position: absolute;
+        top: 50%;      
+        left: 0;
+        width: 100%;  
+        height: 1px;
+        background: #BCBBBC;
+    }
+
+    .card {
+        display: flex;           
+        align-items: flex-start; 
+        gap: 10px;               
+        margin-top: 10px;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .input-options {
+        display: flex;
+        align-items: center;
+        padding: 6px;
+    }
+    
+    .input-options-header{
+        background-color: #F8F8F8;
+    }
+
+    .divider { 
+        align-items: center;    
+        justify-content: center;           
+        margin: 0 5px;
+        color: #BCBBBC;
+    }
+
+    .input-section{
+        border:2px solid #BCBBBC;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+    .bottom-icons{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .addicon{
+        background-color: #F8F8F8;
+        border-radius: 50%;
+        padding: 5px;
+    }
